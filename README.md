@@ -1,3 +1,14 @@
+# Proyecto ejemplo para la memoización de react OB react avanzado
+
+Vamos a cachear información de componentes realmente caros que van a usar mucha información
+
+## ¿Cuando usar hook useMemo()?
+
+- Componente Funcional que recibe unas props y siempre devuelve lo mismo
+- Cuando un componente se re-renderiza demasiadas veces
+- Un Componente recibe las mismas props y re-renderiza
+- Componentes grandes / muy grandes que contienen muchos elementos UI que dependen de los props.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
